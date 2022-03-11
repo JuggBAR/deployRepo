@@ -26,6 +26,11 @@
             .container{
                 color: rgb(163, 22, 22);
                 animation: anim-m 0.5s infinite;
+                height: 20%;
+                background: linear-gradient(45deg, gray 50%, white 50%);
+                border-radius: 8px;
+                box-shadow: 0px 10px 20px 10px black;
+                text-align: center;
             }
             .cont-w:hover{
                 animation: none;
@@ -45,6 +50,11 @@
                     transform: rotate(-5deg);
                 }
             }
+            @keyframes anim-s{
+                50%{
+                    transform: translateY(90%);
+                }
+            }
             .cont-w{
                 animation: anim infinite 1.2s;
                 cursor: pointer;
@@ -58,21 +68,37 @@
             }
             a{
                 text-decoration: none;
-                color: #181818;
+                color: #b2e91b;
             }
+            .cont-s{
+                position: absolute;
+                top: 10%;
+                border-radius: 8px;
+                box-shadow: 0px 10px 20px 10px black;
+                text-align: center;
+                animation: anim-s 5s infinite;
+                
+            }
+            .cont-s div{
+                z-index: 100;
+            }
+            .container img{
+                filter:brightness(150%);
+            }
+
         </style>
     </head>
 
     <body>
         <div class="container">
-            <h1>╰┉°死⛩️ˢᵗᵃʳ⃠ᱺ🇪🇸–ℕ𝗼αh̆̈ <img src="http://pm1.narvii.com/8225/22e3c8a8ea4fe0d41bfde9d2a31215f8c8f2edf8r1-736-736v2_68.jpg" width="80px"/>
+            <h1>☂︎𝐒𝐦𝐢𝐥𝐞𝐲クソ嫌悪感☾︎ᵗᵒᵏⁱˢᵃᵏⁱ☽︎☂︎ <img src="http://pm1.narvii.com/8225/a0c36190e8e4b9abca5344d397749e70f6a9afb1r1-750-750v2_68.jpg" width="80px"/>
             </h1>
         </div>
-        <div class="cont-w">
-            <h1><a target="_blank" href="https://www.youtube.com/watch?v=_lMlsPQJs6U&ab_channel=TheNeighbourhoodVEVO">Ganaste 100000 </a><img class="is" src="https://pm1.narvii.com/7856/f19e89330db5686206462e3c9fa9b31ff754deebr1-2048-2048v2_hq.jpg"/></h1>
+        <div class="cont-s">
+            <div class="cont-w">
+                <h1><a target="_blank" href="https://www.youtube.com/watch?v=_lMlsPQJs6U&ab_channel=TheNeighbourhoodVEVO">Se mi novia guapota</a></h1>
+            </div>
+            <img src="https://i.pinimg.com/originals/11/e9/03/11e9038965932e27306b6c8ef16bd574.gif"  height="200px" id="main-m" alt="">
         </div>
-            
-            
-        <img src="https://i.pinimg.com/originals/11/e9/03/11e9038965932e27306b6c8ef16bd574.gif"  height="200px" id="main-m" alt="">
     </body>
 </html>
