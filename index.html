@@ -2,31 +2,77 @@
 <html>
     <head>
         <title>
-
+            AMINOXDD
         </title>
         <meta charset="utf-8">
+
         <style>
+            *{
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
             body{
+                font-family: Ink;
+                height: 100vh;
                 display: flex;
+                flex-direction: column;
                 align-items: center;
-                justify-content: center;
-                background-color: #3a383831;
+                justify-content:center;
+                background-color: #242020df;
+                font-size: 2.5em;
+                
             }
             .container{
-                width: 60%;
-                height: 40%;
-                background-color: #181818;
-                color: white;
-                font-family: Impact;
-                font-size: 1.5em;
+                color: rgb(163, 22, 22);
+                animation: anim-m 0.5s infinite;
+            }
+            .cont-w:hover{
+                animation: none;
+                background-color: white;
+                text-decoration: underline;
+            }
+            @keyframes anim {
+                50%{
+                    transform: scale(1.2);
+                }
+            }
+            @keyframes anim-m{
+                25%{
+                    transform: rotate(5deg);
+                }
+                75%{
+                    transform: rotate(-5deg);
+                }
+            }
+            .cont-w{
+                animation: anim infinite 1.2s;
+                cursor: pointer;
+            }
+            .is{
+                width: 70px;
+                height: 70px;
+            }
+            .main-m{
+                margin-top: 30px;
+            }
+            a{
+                text-decoration: none;
+                color: #181818;
             }
         </style>
-    
     </head>
 
     <body>
         <div class="container">
-            Holis personis
+            <h1>╰┉°死⛩️ˢᵗᵃʳ⃠ᱺ🇪🇸–ℕ𝗼αh̆̈ <img src="http://pm1.narvii.com/8225/22e3c8a8ea4fe0d41bfde9d2a31215f8c8f2edf8r1-736-736v2_68.jpg" width="80px"/>
+            </h1>
         </div>
+        <div class="cont-w">
+            <h1><a target="_blank" href="https://www.youtube.com/watch?v=_lMlsPQJs6U&ab_channel=TheNeighbourhoodVEVO">Ganaste 100000 </a><img class="is" src="https://pm1.narvii.com/7856/f19e89330db5686206462e3c9fa9b31ff754deebr1-2048-2048v2_hq.jpg"/></h1>
+        </div>
+            
+            
+        <img src="https://i.pinimg.com/originals/11/e9/03/11e9038965932e27306b6c8ef16bd574.gif"  height="200px" id="main-m" alt="">
     </body>
 </html>
