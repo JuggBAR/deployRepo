@@ -19,7 +19,7 @@
                 flex-direction: column;
                 align-items: center;
                 justify-content:center;
-                background-color: #242020df;
+                background-color: hsla(308, 63%, 64%, 0.875);
                 font-size: 2.5em;
                 
             }
@@ -85,7 +85,39 @@
             .container img{
                 filter:brightness(150%);
             }
+            .h-i-1{
+                position: absolute;
+                top: 0;
+                left: 0;
+                animation: anim-h .2s infinite
 
+            }
+            .h-i-2{
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                animation: anim-h .2s infinite
+
+            }
+            .h-i-3{
+                position: absolute;
+                top: 0;
+                right: 0;
+                animation: anim-h .2s infinite
+
+            }
+            .h-i-4{
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                animation: anim-h .2s infinite
+            }
+
+            @keyframes anim-h {
+                50%{
+                    transform: scale(0.8);
+                }
+            }
         </style>
     </head>
 
@@ -96,9 +128,21 @@
         </div>
         <div class="cont-s">
             <div class="cont-w">
-                <h1><a target="_blank" href="https://www.youtube.com/watch?v=_lMlsPQJs6U&ab_channel=TheNeighbourhoodVEVO">Se mi novia guapota</a></h1>
+                <h1><a target="_blank" href="https://www.youtube.com/watch?v=_lMlsPQJs6U&ab_channel=TheNeighbourhoodVEVO">TE AMOOOOOOOO</a></h1>
             </div>
             <img src="https://i.pinimg.com/originals/11/e9/03/11e9038965932e27306b6c8ef16bd574.gif"  height="200px" id="main-m" alt="">
+        </div>
+        <div class="h-i-1">
+            <img src="https://img.icons8.com/ios-glyphs/100/000000/like--v1.png"/>
+        </div>
+        <div class="h-i-2">
+            <img src="https://img.icons8.com/ios-glyphs/100/000000/like--v1.png"/>
+        </div>
+        <div class="h-i-3">
+            <img src="https://img.icons8.com/ios-glyphs/100/000000/like--v1.png"/>
+        </div>
+        <div class="h-i-4">
+            <img src="https://img.icons8.com/ios-glyphs/100/000000/like--v1.png"/>
         </div>
     </body>
 </html>
